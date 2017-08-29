@@ -1,0 +1,65 @@
+#company-icon {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -10px;
+  filter: grayscale(100%);
+}
+
+.small-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+html,
+body,
+.view {
+  height: 95%;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.view {
+    background: url("./images/home.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pageHeading {
+  padding-left: 18px;
+}
+
+.main-text {
+  margin-top: 0px;
+  opacity: .6;
+  color: #fff;
+  font-size: 8em;
+}
+
+#main-sub-text {
+  background-color: black;
+  opacity: .6;
+  color: #2C2C2C;
+  font-size: 4em;
+  border-radius: 10px;
+}
+
+#main-sub-text:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+.footerInfo {
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  background-color: #2C2C2C;
+}
